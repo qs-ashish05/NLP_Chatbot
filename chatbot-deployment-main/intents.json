@@ -1,0 +1,102 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! How can I help you?",
+          "Greetings! What can I do for you?",
+          "Hello! Feel free to ask if you need any help."
+        ]
+      },    
+      {
+        "tag": "admit_card",
+        "patterns": [
+          "How can I correct my Admit card details?",
+          "What should I do if there is an error in my Admit card?",
+          "Can I change my photo on the Admit card?",
+          "What is the Admit card correction process?"
+        ],
+        "responses": [
+          "To correct your Admit card details, please visit the Admit card correction portal on our website.",
+          "You can correct your Admit card details by filling out the correction form available on our website."
+        ]
+      },   
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "confirmation_deadline",
+        "patterns": [
+          "How will I know if my Admit card is corrected?",
+          "What is the deadline for Admit card correction?",
+          "Is there a last date for correcting Admit cards?"
+        ],
+        "responses": [
+          "Once your Admit card is corrected, you will receive a confirmation email with the updated details.",
+          "The deadline for Admit card correction is 25th May 2024. Please make sure to complete the process before this date."
+        ]
+      },    
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Gpay",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "documents_upload_issues",
+        "patterns": [
+          "Which documents are required for Admit card correction?",
+          "What documents do I need to submit for Admit card correction?",
+          "My photo is not uploading, what should I do?",
+          "I'm unable to upload the PDF, how can I solve it?"
+        ],
+        "responses": [
+          "For Admit card correction, you need to submit a valid ID proof and a recent passport-size photo. Please ensure the photo is in JPEG or PNG format.",
+          "If your photo is not uploading, please check the size and format. Supported formats: JPEG, PNG. If you're having trouble with the PDF, ensure it's version 1.4 or lower."
+        ]
+      },
+      {
+        "tag": "documents",
+        "patterns": [
+          "Which documents are required for admit card?",
+          "What documents do I need to submit for Admit card correction?",
+          "Which documents are necessary for this?"
+        ],
+        "responses": [
+          "For admit card, you need to submit a valid ID proof and a recent passport-size photo scan copy.",
+          "You are required to submit a valid ID proof such as Aadhaar card and a current passport-size photo for Admit card."
+        ]
+      },     
+      {
+        "tag": "support_request",
+        "patterns": [
+          "I need help with Admit card correction.",
+          "Can you provide assistance with correcting my Admit card?",
+          "I'm having issues with the Admit card correction process. Can you assist me?"
+        ],
+        "responses": [
+          "Of course! I'm here to assist you with your Admit card correction. Please provide your registration number and I'll guide you through the process.",
+          "Certainly! Please share your details, and I'll help you with the Admit card correction process."
+        ]
+      }    
+    ]
+  }
+  
