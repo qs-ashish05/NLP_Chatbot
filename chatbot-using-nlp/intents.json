@@ -1,0 +1,490 @@
+{
+    "intents": [
+        {
+            "tags": "greetings",
+            "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+            "responses": ["Hello", "Hey!", "What can I do for you", "How can I help you?"]
+        },
+        {
+            "tags": "color_avail_ls",
+            "patterns": ["What are the available color options for the Loveseat sofa"," Could you please list the color choices for the Loveseat sofa?",
+            "I'm interested in the Loveseat sofa. Can you tell me which colors it comes in?",
+            "What color selections are offered for the Loveseat sofa?",
+            "Are there different shades available for the Loveseat sofa?",
+            "I'd like to know the range of colors I can choose from for the Loveseat sofa."],
+            "responses": ["Certainly, here are some colrs available Pastel, Pink Mint, Green ,Lavender ,Sky Blue and Peach"]
+            
+        },
+        {
+            "tags": "color_avail_rs",
+            "patterns": ["What are the available color options for the Reclining sofa"," Could you please list the color choices for the Reclining sofa?",
+            "I'm interested in the Reclining sofa. Can you tell me which colors it comes in?",
+            "What color selections are offered for the Reclining sofa?",
+            "Are there different shades available for the Reclining sofa?",
+            "I'd like to know the range of colors I can choose from for the Reclining sofa."],
+            "responses": ["Certainly, here are some colrs available Classic Black,Rich Espresso ,Distressed Brown, Creamy White and  Vintage Tan"]
+            
+        },
+        {
+            "tags": "color_avail_sec",
+            "patterns": [
+                "What are the available color options for the Sectional sofa?",
+                "Could you please list the color choices for the Sectional sofa?",
+                "I'm interested in the Sectional sofa. Can you tell me which colors it comes in?",
+                "What color selections are offered for the Sectional sofa?",
+                "Are there different shades available for the Sectional sofa?",
+                "I'd like to know the range of colors I can choose from for the Sectional sofa."
+            ],
+            "responses": ["Certainly, here are some colors available for the Sectional sofa: Gray, Navy Blue, Beige, Charcoal, and Teal."]
+        },
+        {
+            "tags": "color_avail_chest",
+            "patterns": [
+                "What are the available color options for the Chesterfield sofa?",
+                "Could you please list the color choices for the Chesterfield sofa?",
+                "I'm interested in the Chesterfield sofa. Can you tell me which colors it comes in?",
+                "What color selections are offered for the Chesterfield sofa?",
+                "Are there different shades available for the Chesterfield sofa?",
+                "I'd like to know the range of colors I can choose from for the Chesterfield sofa."
+            ],
+            "responses": ["Certainly, here are some colors available for the Chesterfield sofa: Brown, Maroon, Rich Espresso, Cream, and Vintage Tan."]
+        },
+        {
+            "tags": "color_avail_mod",
+            "patterns": [
+                "What are the available color options for the Modern sofa?",
+                "Could you please list the color choices for the Modern sofa?",
+                "I'm interested in the Modern sofa. Can you tell me which colors it comes in?",
+                "What color selections are offered for the Modern sofa?",
+                "Are there different shades available for the Modern sofa?",
+                "I'd like to know the range of colors I can choose from for the Modern sofa."
+            ],
+            "responses": ["Certainly, here are some colors available for the Modern sofa: Gray, White, Black, Blue, and Red."]
+        },
+        {
+            "tags": "material_avail_ls",
+            "patterns": [
+                "What are the available materials for the Loveseat sofa?",
+                "Could you please list the material options for the Loveseat sofa?",
+                "I'm interested in the Loveseat sofa. Can you tell me which materials it comes in?",
+                "What material selections are offered for the Loveseat sofa?",
+                "Are there different upholstery choices available for the Loveseat sofa?",
+                "I'd like to know the range of materials I can choose from for the Loveseat sofa."
+            ],
+            "responses": ["Certainly, here are some materials available for the Loveseat sofa: Fabric, Leather, Microfiber, Velvet, and Linen."]
+        },
+        {
+            "tags": "material_avail_rs",
+            "patterns": [
+                "What are the available materials for the Reclining sofa?",
+                "Could you please list the material options for the Reclining sofa?",
+                "I'm interested in the Reclining sofa. Can you tell me which materials it comes in?",
+                "What material selections are offered for the Reclining sofa?",
+                "Are there different upholstery choices available for the Reclining sofa?",
+                "I'd like to know the range of materials I can choose from for the Reclining sofa."
+            ],
+            "responses": ["Certainly, here are some materials available for the Reclining sofa: Leather, Faux Leather, Microfiber, Chenille, and Suede."]
+        },
+        {
+            "tags": "material_avail_sec",
+            "patterns": [
+                "What are the available materials for the Sectional sofa?",
+                "Could you please list the material options for the Sectional sofa?",
+                "I'm interested in the Sectional sofa. Can you tell me which materials it comes in?",
+                "What material selections are offered for the Sectional sofa?",
+                "Are there different upholstery choices available for the Sectional sofa?",
+                "I'd like to know the range of materials I can choose from for the Sectional sofa."
+            ],
+            "responses": ["Certainly, here are some materials available for the Sectional sofa: Fabric, Leather, Velvet, Suede, and Microfiber."]
+        },
+        {
+            "tags": "material_avail_chest",
+            "patterns": [
+                "What are the available materials for the Chesterfield sofa?",
+                "Could you please list the material options for the Chesterfield sofa?",
+                "I'm interested in the Chesterfield sofa. Can you tell me which materials it comes in?",
+                "What material selections are offered for the Chesterfield sofa?",
+                "Are there different upholstery choices available for the Chesterfield sofa?",
+                "I'd like to know the range of materials I can choose from for the Chesterfield sofa."
+            ],
+            "responses": ["Certainly, here are some materials available for the Chesterfield sofa: Leather, Velvet, Fabric, Linen, and Faux Leather."]
+        },
+        {
+            "tags": "material_avail_mod",
+            "patterns": [
+                "What are the available materials for the Modern sofa?",
+                "Could you please list the material options for the Modern sofa?",
+                "I'm interested in the Modern sofa. Can you tell me which materials it comes in?",
+                "What material selections are offered for the Modern sofa?",
+                "Are there different upholstery choices available for the Modern sofa?",
+                "I'd like to know the range of materials I can choose from for the Modern sofa."
+            ],
+            "responses": ["Certainly, here are some materials available for the Modern sofa: Leather, Fabric, Microfiber, Linen, and Velvet."]
+        },
+        {
+            "tags": "desc_avail_ls",
+            "patterns": [
+                "Can you provide a detailed description of the Loveseat sofa?",
+                "I'd like to know more about the Loveseat sofa.",
+                "Tell me about the features of the Loveseat sofa.",
+                "What is the Loveseat sofa known for?",
+                "Please give me a description of the Loveseat sofa."
+            ],
+            "responses": ["Certainly! The Loveseat sofa is a compact seating option designed to comfortably seat two people. It features a cozy design with plush cushioning and comes in a variety of materials and colors to suit your preferences. Its smaller size makes it ideal for smaller living spaces or as an addition to larger sofas."]
+        },
+        {
+            "tags": "desc_avail_rs",
+            "patterns": [
+                "Can you provide a detailed description of the Reclining sofa?",
+                "I'd like to know more about the Reclining sofa.",
+                "Tell me about the features of the Reclining sofa.",
+                "What is the Reclining sofa known for?",
+                "Please give me a description of the Reclining sofa."
+            ],
+            "responses": ["Certainly! The Reclining sofa is designed for ultimate relaxation. It features reclining seats that allow you to kick back and unwind with ease. Some models even come with built-in cup holders and storage compartments for added convenience. The Reclining sofa is available in a variety of materials and colors to match your style."]
+        },
+        {
+            "tags": "desc_avail_sec",
+            "patterns": [
+                "Can you provide a detailed description of the Sectional sofa?",
+                "I'd like to know more about the Sectional sofa.",
+                "Tell me about the features of the Sectional sofa.",
+                "What is the Sectional sofa known for?",
+                "Please give me a description of the Sectional sofa."
+            ],
+            "responses": ["Certainly! The Sectional sofa is a versatile seating option that can be customized to fit your space perfectly. It typically consists of multiple sections that can be arranged in various configurations, such as L-shape, U-shape, or as individual pieces. Sectional sofas are known for their spacious seating and are great for large living rooms or open-concept spaces. They come in a variety of materials and colors to match your decor."]
+        },
+        {
+            "tags": "desc_avail_chest",
+            "patterns": [
+                "Can you provide a detailed description of the Chesterfield sofa?",
+                "I'd like to know more about the Chesterfield sofa.",
+                "Tell me about the features of the Chesterfield sofa.",
+                "What is the Chesterfield sofa known for?",
+                "Please give me a description of the Chesterfield sofa."
+            ],
+            "responses": ["Certainly! The Chesterfield sofa is a classic and elegant option that features distinctive rolled arms and deep button tufting. It exudes a sense of timeless luxury and is often upholstered in rich leather or high-quality fabric. The Chesterfield sofa is known for its sophisticated design and is a statement piece in any room. It's available in a variety of materials and colors to suit your style."]
+        },
+        {
+            "tags": "desc_avail_mod",
+            "patterns": [
+                "Can you provide a detailed description of the Modern sofa?",
+                "I'd like to know more about the Modern sofa.",
+                "Tell me about the features of the Modern sofa.",
+                "What is the Modern sofa known for?",
+                "Please give me a description of the Modern sofa."
+            ],
+            "responses": ["Certainly! The Modern sofa is characterized by its clean lines, minimalist design, and often features sleek metal or wooden legs. It's a popular choice for those who appreciate a contemporary aesthetic and want to add a touch of modern style to their living space. The Modern sofa is available in a variety of materials and colors to match your decor and personal preferences."]
+        },
+        {
+            "tags": "dimensions_ls",
+            "patterns": [
+                "What are the dimensions of the Loveseat sofa?",
+                "Could you please provide the size of the Loveseat sofa?",
+                "Tell me the width, depth, and height of the Loveseat sofa.",
+                "I'd like to know the size of the Loveseat sofa.",
+                "Please give me the dimensions of the Loveseat sofa."
+            ],
+            "responses": ["Certainly! The dimensions of the Loveseat sofa typically range from 50 inches to 70 inches in width, 30 inches to 40 inches in depth, and 30 inches to 36 inches in height."]
+        },
+        {
+            "tags": "dimensions_rs",
+            "patterns": [
+                "What are the dimensions of the Reclining sofa?",
+                "Could you please provide the size of the Reclining sofa?",
+                "Tell me the width, depth, and height of the Reclining sofa.",
+                "I'd like to know the size of the Reclining sofa.",
+                "Please give me the dimensions of the Reclining sofa."
+            ],
+            "responses": ["Certainly! The dimensions of the Reclining sofa can vary, but they generally fall within the range of 75 inches to 90 inches in width, 35 inches to 42 inches in depth, and 38 inches to 42 inches in height."]
+        },
+        {
+            "tags": "dimensions_sec",
+            "patterns": [
+                "What are the dimensions of the Sectional sofa?",
+                "Could you please provide the size of the Sectional sofa?",
+                "Tell me the width, depth, and height of the Sectional sofa.",
+                "I'd like to know the size of the Sectional sofa.",
+                "Please give me the dimensions of the Sectional sofa."
+            ],
+            "responses": ["Certainly! The dimensions of the Sectional sofa can vary depending on the configuration, but common dimensions range from 100 inches to 150 inches in width, 80 inches to 120 inches in depth, and 30 inches to 36 inches in height."]
+        },
+        {
+            "tags": "dimensions_chest",
+            "patterns": [
+                "What are the dimensions of the Chesterfield sofa?",
+                "Could you please provide the size of the Chesterfield sofa?",
+                "Tell me the width, depth, and height of the Chesterfield sofa.",
+                "I'd like to know the size of the Chesterfield sofa.",
+                "Please give me the dimensions of the Chesterfield sofa."
+            ],
+            "responses": ["Certainly! The dimensions of the Chesterfield sofa typically range from 84 inches to 96 inches in width, 35 inches to 42 inches in depth, and 28 inches to 35 inches in height."]
+        },
+        {
+            "tags": "dimensions_mod",
+            "patterns": [
+                "What are the dimensions of the Modern sofa?",
+                "Could you please provide the size of the Modern sofa?",
+                "Tell me the width, depth, and height of the Modern sofa.",
+                "I'd like to know the size of the Modern sofa.",
+                "Please give me the dimensions of the Modern sofa."
+            ],
+            "responses": ["Certainly! The dimensions of the Modern sofa typically range from 70 inches to 90 inches in width, 30 inches to 36 inches in depth, and 28 inches to 32 inches in height."]
+        },
+        {
+            "tags": "fit_in_living_room_ls",
+            "patterns": [
+                "Will the Loveseat sofa fit in my living room?",
+                "Can the Loveseat sofa be accommodated in a small living room?",
+                "Is the Loveseat sofa suitable for a compact living space?",
+                "I have a small living room, can I place the Loveseat sofa in it?",
+                "Will the Loveseat sofa work in a limited space?"
+            ],
+            "responses": ["The Loveseat sofa is a great choice for smaller living rooms or as an addition to larger sofas. Its dimensions typically range from 50 inches to 70 inches in width, 30 inches to 40 inches in depth, and 30 inches to 36 inches in height, making it suitable for compact spaces."]
+        },
+        {
+            "tags": "fit_in_living_room_rs",
+            "patterns": [
+                "Will the Reclining sofa fit in my living room?",
+                "Can the Reclining sofa be accommodated in a small living room?",
+                "Is the Reclining sofa suitable for a compact living space?",
+                "I have a small living room, can I place the Reclining sofa in it?",
+                "Will the Reclining sofa work in a limited space?"
+            ],
+            "responses": ["The dimensions of the Reclining sofa can vary, but they generally fall within the range of 75 inches to 90 inches in width, 35 inches to 42 inches in depth, and 38 inches to 42 inches in height. It's essential to measure your living room space to ensure it can comfortably accommodate the Reclining sofa."]
+        },
+        {
+            "tags": "fit_in_living_room_sec",
+            "patterns": [
+                "Will the Sectional sofa fit in my living room?",
+                "Can the Sectional sofa be accommodated in a small living room?",
+                "Is the Sectional sofa suitable for a compact living space?",
+                "I have a small living room, can I place the Sectional sofa in it?",
+                "Will the Sectional sofa work in a limited space?"
+            ],
+            "responses": ["The dimensions of the Sectional sofa can vary depending on the configuration, but common dimensions range from 100 inches to 150 inches in width, 80 inches to 120 inches in depth, and 30 inches to 36 inches in height. It's important to measure your living room and plan the layout to ensure the Sectional sofa fits comfortably."]
+        },
+        {
+            "tags": "fit_in_living_room_chest",
+            "patterns": [
+                "Will the Chesterfield sofa fit in my living room?",
+                "Can the Chesterfield sofa be accommodated in a small living room?",
+                "Is the Chesterfield sofa suitable for a compact living space?",
+                "I have a small living room, can I place the Chesterfield sofa in it?",
+                "Will the Chesterfield sofa work in a limited space?"
+            ],
+            "responses": ["The Chesterfield sofa typically ranges from 84 inches to 96 inches in width, 35 inches to 42 inches in depth, and 28 inches to 35 inches in height. While it may fit well in larger living rooms, it's important to measure your space and consider the sofa's dimensions to ensure it fits comfortably."]
+        },
+        {
+            "tags": "fit_in_living_room_mod",
+            "patterns": [
+                "Will the Modern sofa fit in my living room?",
+                "Can the Modern sofa be accommodated in a small living room?",
+                "Is the Modern sofa suitable for a compact living space?",
+                "I have a small living room, can I place the Modern sofa in it?",
+                "Will the Modern sofa work in a limited space?"
+            ],
+            "responses": ["The Modern sofa typically ranges from 70 inches to 90 inches in width, 30 inches to 36 inches in depth, and 28 inches to 32 inches in height. It's a versatile choice that can work well in various living room sizes, including smaller spaces. Be sure to measure your living room and plan the layout accordingly."]
+        },
+        {
+            "tags": "cushioning_ls",
+            "patterns": [
+                "What type of cushioning is used in the Loveseat sofa?",
+                "Tell me about the cushioning in the Loveseat sofa.",
+                "Can you describe the cushioning of the Loveseat sofa?",
+                "What kind of cushions does the Loveseat sofa have?",
+                "Please provide information about the cushioning in the Loveseat sofa."
+            ],
+            "responses": ["The Loveseat sofa is typically equipped with plush cushioning that offers a comfortable and cozy seating experience. The specific type of cushioning can vary by brand and model but commonly includes high-density foam or a combination of foam and innerspring coils."]
+        },
+        {
+            "tags": "cushioning_rs",
+            "patterns": [
+                "What type of cushioning is used in the Reclining sofa?",
+                "Tell me about the cushioning in the Reclining sofa.",
+                "Can you describe the cushioning of the Reclining sofa?",
+                "What kind of cushions does the Reclining sofa have?",
+                "Please provide information about the cushioning in the Reclining sofa."
+            ],
+            "responses": ["The cushioning in the Reclining sofa is designed for maximum comfort and support during relaxation. It typically includes high-density foam and may also feature pocketed coils or memory foam in some models. This combination ensures a comfortable and durable seating experience."]
+        },
+        {
+            "tags": "cushioning_sec",
+            "patterns": [
+                "What type of cushioning is used in the Sectional sofa?",
+                "Tell me about the cushioning in the Sectional sofa.",
+                "Can you describe the cushioning of the Sectional sofa?",
+                "What kind of cushions does the Sectional sofa have?",
+                "Please provide information about the cushioning in the Sectional sofa."
+            ],
+            "responses": ["The Sectional sofa typically features a variety of cushioning options, including high-resilience foam, memory foam, or down-filled cushions, depending on the specific model and brand. This diversity allows you to choose the level of comfort that suits your preferences."]
+        },
+        {
+            "tags": "cushioning_chest",
+            "patterns": [
+                "What type of cushioning is used in the Chesterfield sofa?",
+                "Tell me about the cushioning in the Chesterfield sofa.",
+                "Can you describe the cushioning of the Chesterfield sofa?",
+                "What kind of cushions does the Chesterfield sofa have?",
+                "Please provide information about the cushioning in the Chesterfield sofa."
+            ],
+            "responses": ["The Chesterfield sofa is known for its deep button-tufted backrest and traditionally features plush cushioning for a luxurious seating experience. It often includes high-density foam or down-filled cushions to provide both comfort and support."]
+        },
+        {
+            "tags": "cushioning_mod",
+            "patterns": [
+                "What type of cushioning is used in the Modern sofa?",
+                "Tell me about the cushioning in the Modern sofa.",
+                "Can you describe the cushioning of the Modern sofa?",
+                "What kind of cushions does the Modern sofa have?",
+                "Please provide information about the cushioning in the Modern sofa."
+            ],
+            "responses": ["The Modern sofa typically incorporates high-density foam cushioning to offer a comfortable and supportive seating experience. It focuses on clean lines and minimalist design while ensuring that the cushions provide a balance of comfort and style."]
+        },
+        {
+            "tags": "seat_firmness_ls",
+            "patterns": [
+                "Are the seats of the Loveseat sofa firm or plush?",
+                "Can you describe the seat firmness of the Loveseat sofa?",
+                "Are the cushions on the Loveseat sofa comfortable?",
+                "I'd like to know if the Loveseat sofa has firm or plush seats.",
+                "Please provide information about the seat firmness of the Loveseat sofa."
+            ],
+            "responses": ["The seats of the Loveseat sofa are typically designed to be plush and comfortable, providing a cozy and relaxed seating experience."]
+        },
+        {
+            "tags": "seat_firmness_rs",
+            "patterns": [
+                "Are the seats of the Reclining sofa firm or plush?",
+                "Can you describe the seat firmness of the Reclining sofa?",
+                "Are the cushions on the Reclining sofa comfortable?",
+                "I'd like to know if the Reclining sofa has firm or plush seats.",
+                "Please provide information about the seat firmness of the Reclining sofa."
+            ],
+            "responses": ["The seats of the Reclining sofa are designed for maximum comfort and relaxation. They are typically plush and offer excellent cushioning for a soft and comfortable seating experience."]
+        },
+        {
+            "tags": "seat_firmness_sec",
+            "patterns": [
+                "Are the seats of the Sectional sofa firm or plush?",
+                "Can you describe the seat firmness of the Sectional sofa?",
+                "Are the cushions on the Sectional sofa comfortable?",
+                "I'd like to know if the Sectional sofa has firm or plush seats.",
+                "Please provide information about the seat firmness of the Sectional sofa."
+            ],
+            "responses": ["The seats of the Sectional sofa can vary in firmness depending on the specific model and brand. You can find options with both firm and plush seats to suit your comfort preferences."]
+        },
+        {
+            "tags": "seat_firmness_chest",
+            "patterns": [
+                "Are the seats of the Chesterfield sofa firm or plush?",
+                "Can you describe the seat firmness of the Chesterfield sofa?",
+                "Are the cushions on the Chesterfield sofa comfortable?",
+                "I'd like to know if the Chesterfield sofa has firm or plush seats.",
+                "Please provide information about the seat firmness of the Chesterfield sofa."
+            ],
+            "responses": ["The Chesterfield sofa is known for its plush and comfortable seats. The cushions are typically designed to provide a soft and luxurious seating experience, making them plush."]
+        },
+        {
+            "tags": "seat_firmness_mod",
+            "patterns": [
+                "Are the seats of the Modern sofa firm or plush?",
+                "Can you describe the seat firmness of the Modern sofa?",
+                "Are the cushions on the Modern sofa comfortable?",
+                "I'd like to know if the Modern sofa has firm or plush seats.",
+                "Please provide information about the seat firmness of the Modern sofa."
+            ],
+            "responses": ["The seats of the Modern sofa are often designed to strike a balance between firmness and comfort. They provide adequate support while offering a comfortable seating experience."]
+        },
+        {
+            "tags": "leg_options_ls",
+            "patterns": [
+                "Does the Loveseat sofa come with different leg options?",
+                "Are there choices for the legs of the Loveseat sofa?",
+                "Can I customize the legs of the Loveseat sofa?",
+                "Tell me about the leg options for the Loveseat sofa.",
+                "I'd like to know if I can choose different legs for the Loveseat sofa."
+            ],
+            "responses": ["Yes, the Loveseat sofa often offers various leg options that you can choose from to customize the appearance of your sofa. Common leg options include wooden legs in different finishes and styles."]
+        },
+        {
+            "tags": "leg_options_rs",
+            "patterns": [
+                "Does the Reclining sofa come with different leg options?",
+                "Are there choices for the legs of the Reclining sofa?",
+                "Can I customize the legs of the Reclining sofa?",
+                "Tell me about the leg options for the Reclining sofa.",
+                "I'd like to know if I can choose different legs for the Reclining sofa."
+            ],
+            "responses": ["Yes, the Reclining sofa often offers various leg options that you can select to match your preferred style. These options may include different types of legs, such as wooden, metal, or plastic, in various finishes."]
+        },
+        {
+            "tags": "leg_options_sec",
+            "patterns": [
+                "Does the Sectional sofa come with different leg options?",
+                "Are there choices for the legs of the Sectional sofa?",
+                "Can I customize the legs of the Sectional sofa?",
+                "Tell me about the leg options for the Sectional sofa.",
+                "I'd like to know if I can choose different legs for the Sectional sofa."
+            ],
+            "responses": ["Certainly! The Sectional sofa often provides a range of leg options for customization. You can choose from various materials, finishes, and styles to complement your desired look for the sofa."]
+        },
+        {
+            "tags": "leg_options_chest",
+            "patterns": [
+                "Does the Chesterfield sofa come with different leg options?",
+                "Are there choices for the legs of the Chesterfield sofa?",
+                "Can I customize the legs of the Chesterfield sofa?",
+                "Tell me about the leg options for the Chesterfield sofa.",
+                "I'd like to know if I can choose different legs for the Chesterfield sofa."
+            ],
+            "responses": ["Yes, the Chesterfield sofa often offers different leg options for customization. You can select from various leg styles, such as traditional turned legs or modern tapered legs, to suit your design preferences."]
+        },
+        {
+            "tags": "leg_options_mod",
+            "patterns": [
+                "Does the Modern sofa come with different leg options?",
+                "Are there choices for the legs of the Modern sofa?",
+                "Can I customize the legs of the Modern sofa?",
+                "Tell me about the leg options for the Modern sofa.",
+                "I'd like to know if I can choose different legs for the Modern sofa."
+            ],
+            "responses": ["Certainly! The Modern sofa often provides a range of leg options to match your desired aesthetic. You can choose from various materials and finishes, including metal, wood, or acrylic legs, to achieve the look you prefer."]
+        },
+       {
+            "tags": "price_and_discounts",
+            "patterns": ["What is the price of the [product name]?", "Are there any ongoing discounts or promotions?", "Do you offer bulk purchase discounts?"],
+            "responses": ["The price of the [product name] is [price].", "Yes, we currently have [discount details].", "Bulk purchase discounts are available, please contact our sales team for details."]
+        },
+        {
+            "tags": "availability_and_shipping",
+            "patterns": ["Is the [product name] in stock?", "How long does it take to deliver to [location]?", "What are the shipping options and costs?"],
+            "responses": ["Yes, the [product name] is in stock.", "Delivery to [location] usually takes [delivery time].", "We offer several shipping options, and costs vary based on your location and selected option."]
+        },
+        {
+            "tags": "returns_and_warranty",
+            "patterns": ["What is your return policy?", "Is there a warranty for your products?", "How do I initiate a return for a damaged item?"],
+            "responses": ["Our return policy allows returns within [return period] days of purchase.", "All our products come with a [warranty period] warranty.", "To initiate a return for a damaged item, please [return process instructions]."]
+        },
+        {
+            "tags": "customization_and_personalization",
+            "patterns": ["Can I customize the color of the [product name]?", "Do you offer custom furniture design services?", "Can I request a different fabric for this sofa?"],
+            "responses": ["Yes, we offer customization options for the [product name].", "Absolutely, we provide custom furniture design services.", "Certainly, you can choose from a variety of fabric options for this sofa."]
+        },
+        {
+            "tags": "payment_and_financing",
+            "patterns": ["What payment methods do you accept?", "Do you offer financing options for large purchases?", "Is it safe to enter my credit card information on your website?"],
+            "responses": ["We accept payment methods such as [payment methods].", "Yes, we offer financing options for large purchases, including [financing options].", "Your payment information is secure on our website, as we use advanced encryption technology."]
+        },
+        {
+            "tags": "store_information",
+            "patterns": ["Where is your nearest physical store located?", "What are your store hours?", "Do you have a showroom for me to see the furniture in person?"],
+            "responses": ["Our nearest physical store is located at [store location].", "Our store hours are [store hours].", "Yes, we have a showroom where you can view our furniture in person at [showroom location]."]
+        },
+        {
+            "tags": "interior_design_advice",
+            "patterns": ["Can you suggest furniture pieces that would go well together in a living room?", "What are the latest interior design trends for 2023?", "Do you offer consultations with interior designers?"],
+            "responses": ["Certainly, here are some furniture pieces that complement each other for a stylish living room.", "The latest interior design trends for 2023 include [trends].", "Yes, we offer consultations with our expert interior designers to help you create the perfect look for your home."]
+        }
+    ]
+}

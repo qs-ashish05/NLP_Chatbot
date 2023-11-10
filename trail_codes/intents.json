@@ -1,0 +1,39 @@
+{
+    "intents":  [
+        {
+            "tags": "greetings",
+            "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going?"],
+            "responses": ["Hello","Hey!","What can i do for you","How can i help you? "]
+        },
+        {
+            "tags":"Goodbye",
+            "patterns":["cya","see you later","goodbye","ciao","I am leaving","Have a Good day","bye","see ya"],
+            "responses":["Goodbye","See you later","Talk to you later","Sad to see you go"]
+        },
+        {
+            "tags":"Name",
+            "patterns":["What is your name","what should I call you","What is your name?","Who are you?","can you tell me your name"],
+            "responses":["You can call me neural","I'm Neural"]
+        },
+        {
+            "tags":"age",
+            "patterns":["how old are you?","what is your age","age?","how old"],
+            "responses":["I am chatbot I dont have any age"]
+        },
+        {
+            "tags":"shop",
+            "patterns":["Id like to buy something","What are your products?","What do you recommend?","what are you selling?"],
+            "responses":["NeuralNine has a seven part Python book series and a lot of free content on youtube and blog on internet"]
+        },
+        {
+            "tags":"hours",
+            "patterns":["when are you guys open","hours of operations","what are your hours"],
+            "responses":["24/7"]
+        },
+        {
+            "tags":"stocks",
+            "patterns":["what stocks do I own?","How are my shares?","what companies I am interested in?"],
+            "responses":["you own the  following shares: TATA, LnT, Titagrah, Trident and an ETF of the S&P 500 Index"]
+        }
+    ]
+}
